@@ -23,7 +23,7 @@ D1 removes the positive part of the signal because the tube gate requires a nega
 
 The IC1B part is used to "generate" a DC voltage, depending on the output level of IC1A. D2 cuts of all negative parts of the signal. The two low-band filters have a theoretically infinite low cut-off frequency. The output DC voltage is more or less the effective voltage of the AC input signal. R9/R10 can be used to adjust the ration between the raising and falling edge. The sample has a faster reaction on raising then on falling signals. 
 
-IC1C is only a driver for LED1 (3mm, 7,5mcd, amber, low current). The LED illuminates the photo resistor and controls the feedback of IC1A. 
+IC1C is only a driver for LED1 (3mm, aproximately 3000-5000mcd, warm white). The LED illuminates the photo resistor and controls the feedback of IC1A. 
 
 **I recommend to assemble the photo resistor together with the LED in an opaque "envelope".  For example in a black heat shrink tube**
 
