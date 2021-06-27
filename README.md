@@ -5,7 +5,7 @@ Date: 2021-06-24
 
 This is a hardware only project. The goal of the project was an automatic gain control (AGC) for nixie tubes, connected directly with the speaker output of an audio amplifier. The described circuit is designed for an output of 30Vpp max. For other requirements, the values have to be adjusted. The circuit was tested with the EM84 tube but should be also working with other nixies.
 
-The control curve is  more or less linear over the whole volume range.  Only at very low volumes the signal is a bit lower and does not reach the max input for the nixie. But that should not be relevant in normal conditions.
+The control curve is  more or less linear over the whole volume range.  I've tested input signals from 1Vpp up to 30Vpp.
 
 ### WARNING! This circuit uses dangerously high voltages. DO NOT work with these voltages unless you are properly trained or have the necessary experience. This may result in serious injury or death.
 
